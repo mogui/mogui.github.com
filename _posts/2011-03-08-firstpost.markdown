@@ -4,6 +4,7 @@ date: '2011-03-08 21:25:54'
 layout: post
 slug: firstpost
 title: First Post
+published: false
 tags: 
 - misc
 - start

@@ -17,7 +17,7 @@ task :publish do
 end
 
 desc "generate tags archive"
-task :tag_archive do 
+task :tags do 
   sh "PATH=$PATH:/usr/local/lib/ruby/gems/1.8/gems/"
   #require 'jekyll'
   include Jekyll::Filters
