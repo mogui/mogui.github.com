@@ -8,6 +8,8 @@ var:
   categories_path : /categories.html
   tags_path : /tags.html
 
+debug: false
+
 production_url : http://username.github.com # or your custom domain name
 title : always code behind 
 

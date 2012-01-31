@@ -74,9 +74,9 @@
 				</div>
 
 				<div class="foot-menu">
-						<div class="menu-footer-container"><a href="/">Home</a><a href="/archive.html">Archives</a></div>				
+						<div class="menu-footer-container"><a href="/">Home</a><a href="/archive/">Archives</a></div>				
 				</div>
-				{{ site | debug }}
+				{% if site.debug %}	{{ site | debug }}{% endif %}
 			</div>
 		</div>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
