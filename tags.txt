@@ -1,5 +1,0 @@
----
-# handly file to generate tags page with custom script remember to include in nofollow
----
-{% for tag in site.tags %}{{tag[0]}}
-{% endfor %}

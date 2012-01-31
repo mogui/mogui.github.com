@@ -3,7 +3,7 @@ require 'rake'
 require "jekyll"
 
 desc "Deploy all"
-task :deploy => ["tag_archive", "test"]
+task :deploy => ["tag_archive", "publish"]
 
 
 desc "Publish to git hub pages"
