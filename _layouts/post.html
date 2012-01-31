@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="post-single">
+	<div class="post">
+		<div class="title">
+			<h2>{{ page.title }}</h2>
+			<span class="date"></span>
+			<p>Filed in: {% for item in page.tags %} <a href="/tags/{{item}}/">{{item}}</a>{% unless forloop.last  %}, {% endunless %}{% endfor %}
+		</div>
+		<div class="post-content">
+			{{ content }}
+		</div>
+
+	</div>
+	<div class="more top"><a href="#header">↑ Top</a></div>
+</div>
