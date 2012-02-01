@@ -28,7 +28,7 @@ task :tags do
         html = <<-HTML
 ---
 layout: page
-title: Python
+title: #{tag}
 ---
 
 {% assign tags_list = site.tags["#{tag}"] %}  
