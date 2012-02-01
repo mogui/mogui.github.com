@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python
+title: iOS
 ---
 
 {% assign tags_list = site.tags["iOS"] %}  

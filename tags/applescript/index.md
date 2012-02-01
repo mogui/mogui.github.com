@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python
+title: applescript
 ---
 
 {% assign tags_list = site.tags["applescript"] %}  

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python
+title: projects
 ---
 
 {% assign tags_list = site.tags["projects"] %}  

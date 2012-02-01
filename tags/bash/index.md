@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python
+title: bash
 ---
 
 {% assign tags_list = site.tags["bash"] %}  

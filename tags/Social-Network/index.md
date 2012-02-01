@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python
+title: Social Network
 ---
 
 {% assign tags_list = site.tags["Social Network"] %}  

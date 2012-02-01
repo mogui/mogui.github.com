@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python
+title: django
 ---
 
 {% assign tags_list = site.tags["django"] %}  

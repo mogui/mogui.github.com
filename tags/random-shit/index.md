@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python
+title: random shit
 ---
 
 {% assign tags_list = site.tags["random shit"] %}  
