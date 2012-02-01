@@ -38,7 +38,7 @@
 			<div id="side-right" class="side fleft">
 				<div id="about" class="right-content">
 					<img src="/images/qr.gif" class="fleft" />
-					<b>mogui</b> is a software developer living and working in italy, when not <a href="/tag/works/">working</a> he could be caught tweeting something to share, bring forward some of his <em>own-frozen-neverending</em> <a href="https://github.com/mogui" title="GitHub" target="_blank">projects</a> or maybe playing guitar with his <a href="http://zero-tolerance.it" title="Zero Tolerance - Official Death tribute band" target="_blank">band</a> in a stinky place...<br /> you can have his CV <a href="http://mogui.it/wp-content/uploads/2011/03/CV-Niko-Usai.pdf" rel="nofollow" title="Curriculum Vitae" target="_blank">here</a> or use the social stuff below
+					<b>mogui</b> is a software developer living and working in italy, when not working he could be caught tweeting something to share, bring forward some of his <em>own-frozen-neverending</em> <a href="https://github.com/mogui" title="GitHub" target="_blank">projects</a> or maybe playing guitar with his <a href="http://zero-tolerance.it" title="Zero Tolerance - Official Death tribute band" target="_blank">band</a> in a stinky place...<br /> you can have his CV <a href="http://dl.dropbox.com/u/11323577/alwayscodebehind/CV-mogui.pdf" rel="nofollow" title="Curriculum Vitae" target="_blank">here</a> or use the social stuff below
 					<div class="clear"></div>
 				</div>
 				<hr />
@@ -55,7 +55,7 @@
 					<h3>&lowast;Arguments&lowast;</h3>
 					<ul>
 						{% for tag in site.tags %} 
-						  	<li><a href="/tags/{{ tag[0] }}/" title="{{ tag[0] }}">{{ tag[0] }}</a></li>
+						  	<li><a href="/tags/{{ tag[0] | replace:' ','-' }}/" title="{{ tag[0] }}">{{ tag[0] }}</a></li>
 						{% endfor %}
 					</ul>
 				</div>
@@ -70,7 +70,7 @@
 			<div id="footer" class="content">
 				<div class="credits">
 						<strong>(CC) 2011 mogui.it</strong><br />
-					powered by <a href="http://wordpress.org" target="_blank">Wordpress</a>, <a href="http://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, <a href="http://jquery.com/" target="_blank">JQuery</a>, <a href="http://www.le-borbolette.blogspot.com/" target="_blank">Borbolette</a>'s love, <a href="http://www.google.it/images?q=Amaro+del+capo" target="_blank">Amaro del Capo</a> invaded by <a href="http://ironmould.com/" target="_blank">ironmould</a>
+					powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>, <a href="http://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, <a href="http://jquery.com/" target="_blank">JQuery</a>, <a href="http://www.le-borbolette.blogspot.com/" target="_blank">Borbolette</a>'s love, <a href="http://www.google.it/images?q=Amaro+del+capo" target="_blank">Amaro del Capo</a> invaded by <a href="http://ironmould.com/" target="_blank">ironmould</a>
 				</div>
 
 				<div class="foot-menu">
@@ -80,13 +80,14 @@
 			</div>
 		</div>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+		<script src="/js/mustache.js"></script>
+		<script src="/js/jquery.activity.min.js"></script>
+		<script src="/js/script.js"></script>
 		<script>
-
 			$(document).ready(function(){
 				var lang = new Array("h-php", "h-m", "h-py");
 				$("#header .content").addClass(lang[Math.floor(Math.random()*lang.length)]);
 			});
-
 		</script>
 		
 	</body>

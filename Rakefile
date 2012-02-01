@@ -31,7 +31,7 @@ layout: page
 title: Python
 ---
 
-{% assign tags_list = site.tags.#{tag} %}  
+{% assign tags_list = site.tags["#{tag}"] %}  
 {% include tag_list.html %}
 
 HTML

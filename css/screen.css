@@ -157,6 +157,9 @@ h2, h3 {
 /*TWEETS*/
 .latest-tweets {
 	margin-top:20px;
+	height: 600px;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 .tweet-wrap {
 	font-family: Arial,"Helvetica Neue",sans-serif;
@@ -360,3 +363,6 @@ a.rss:hover { background-position:45px 0 }
 #footer .credits a:hover {
 	color:#222;
 }
+
+/* ---------- @ Mixed logic -----------*/
+.mustache_template {display:none;}

@@ -3,14 +3,11 @@
 permalink: /:categories/:title 
 auto: true
 pygments: true
-var:
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
 
 debug: false
-
-production_url : http://username.github.com # or your custom domain name
+courtesy: false
+    
+production_url : http://mogui.github.com # or your custom domain name
 title : always code behind 
 
 author :
