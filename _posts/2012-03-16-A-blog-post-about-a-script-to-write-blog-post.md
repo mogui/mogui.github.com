@@ -16,7 +16,7 @@ cya
 oh the code   
 obviously change author and preferred editor to your tastes
 
-
+{% highlight applescript %}
     #!/bin/bash
     #
     # Copyright (c) 2011 Niko Usai <mogui83@gmail.com> http://mogui.it
@@ -50,5 +50,7 @@ obviously change author and preferred editor to your tastes
     
     " > $filename
     vim  $filename
+
+{% endhighlight %}
 
 or on [github](https://github.com/mogui/.scripts/blob/master/bin/blogpost)
