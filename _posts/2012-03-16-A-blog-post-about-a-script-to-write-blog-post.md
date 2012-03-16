@@ -8,7 +8,7 @@ tags: ['bash']
 ---
 
 I think it's quite self explainatory, am I wrong?   
-fro the less smmarter minds this script will create a post suitable for jekyll automating the front matter and the date, title things.   
+for the less smmarter minds this script will create a post suitable for jekyll automating the front matter and the date, title things.   
 As I already said I'm lazy and everything that will let me write more things on this blog is kinda useful
 
 cya
