@@ -23,7 +23,7 @@ so the mighty bash came handy for my estimate.
 
 {% highlight bash %}
     svn log -r<VERSION_START>:<VERSION_END> | grep <YOUR_SVN_USER> | awk '{print $5}' |  sort -u | wc -l
-{% endhhighligh %}
+{% endhighlight %}
 
 adjust with your version number and svn username and you've got your fantastic estimate number
 
