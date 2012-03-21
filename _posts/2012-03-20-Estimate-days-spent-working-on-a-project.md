@@ -10,7 +10,7 @@ tags: ['bash']
 Today I was asked to write down how many days I've spent working on a project
 
 
-my face was like:  
+my face was like:   
 ![wut](http://www.myfacewhen.com/images/390.jpg)
 
 
