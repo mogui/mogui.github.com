@@ -14,11 +14,10 @@ Plugin](http://developers.facebook.com/docs/reference/plugins/comments/).
 
 For now only login with Facebook ID works, the other three are disabled;
 
-Nothing has to be setted and doesn't rely on any other library just include the 3 files and include the header one: [code lang="obj-c"]#import
-"FacebookCommentsWidgetViewController.h"[/code] Using it is damn simple, it is an indipendent ViewController+View so you just have to add his view to your layout:
-
-{% highlight  objc %}
-
+Nothing has to be setted and doesn't rely on any other library just include the 3 files and include the header one: 
+{% highlight objc %}
+ #import "FacebookCommentsWidgetViewController.h" 
+//Using it is damn simple, it is an indipendent ViewController+View so you just have to add his view to your layout:
 
 FacebookCommentsWidgetViewController *fb = [[FacebookCommentsWidgetViewController alloc] initWithFrame:self.view.bounds   
 	type:FacebookCommentsWidgetTypeFixed andUrl:@"http://maustbeavlidurl.com"];
