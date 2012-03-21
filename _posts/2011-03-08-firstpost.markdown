@@ -6,7 +6,6 @@ slug: firstpost
 title: First Post
 published: true
 tags: [misc]
-
 ---
 
 *From something, somewhere we must start...*   
