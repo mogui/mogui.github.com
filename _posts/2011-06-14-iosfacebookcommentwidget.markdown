@@ -31,5 +31,5 @@ Just two things to note:
  	- `FacebookCommentsWidgetTypeFixed` this mode the widget view remains the size of the frame you give when nit the controller and is scrollable
  	-  `FacebookCommentsWidgetTypeAutosized` in this mode (not fully functional) the view tries to resize its frame according to the content length of the comments. When the frame is resized a `kFacebookCommentsWidgetResizedNotification` is posted to allow layout rearranging.   
 
-[on GitHub](https://github.com/mogui/iOSFacebookCommentWidge)
+[on GitHub](https://github.com/mogui/iOSFacebookCommentWidget)
 

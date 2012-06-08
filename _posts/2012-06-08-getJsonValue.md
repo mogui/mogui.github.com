@@ -37,4 +37,4 @@ Hope this will be useful to someone else too.
 If you're wondering why it's written in node.js that's because It is part of another project I'm writing, and it is in node :P   
 Let me know if you port this shit to some other language (if I find time time, python will be first)!!!
 
-[Link to source](https://github.com/mogui/.scripts/blob/master/bin/getJsonValue)
+[source on github](https://github.com/mogui/.scripts/blob/master/bin/getJsonValue)
