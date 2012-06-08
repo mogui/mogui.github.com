@@ -9,13 +9,12 @@ tags: ['script', JSON, 'Node.js']
 
 Extracts a value from a json specified by a keyPath.   
 A keyPath is a string of key and array index concatenated by a dot.   
+*ie. extracts the value of the key name of the 3rd element of the array value of longlist key*
 
 {% highlight bash %}
     $ getJsonValue ./yourfile.json longlist.3.name
     $ mighty value
 {%  endhighlight %}
-
-extracts the value of the key name of the 3rd element of the array value of longlist key
 
 The filename is optional, if it is not presents the script will read from STDIN so it is usable for piping input 
 
@@ -31,11 +30,11 @@ There is a special key that can be used, **count**, it will output the number of
     $ 5536
 {%  endhighlight %}
 
-If the value of the key is a JSON object teh script will return it as a string (available to pipe through other shit)
+If the value of the key is a JSON object the script will return it as a string (available to pipe through other shit)
 
-Hope this will be useful to someone else.
+Hope this will be useful to someone else too.
 
-If you're wondering why it's written in node that's because It is part of another project I'm writing :P   
-Let me know if you port this short shit to some other language (if i've got time python will be first)!!!
+If you're wondering why it's written in node.js that's because It is part of another project I'm writing, and it is in node :P   
+Let me know if you port this shit to some other language (if I find time time, python will be first)!!!
 
 [Link to source](https://github.com/mogui/.scripts/blob/master/bin/getJsonValue)
