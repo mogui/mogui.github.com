@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ " /css/main.css " | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ " /css/syntax.css " | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
+</head>
+
+<body>
+  <header>
+    <h3><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h3>
+    <small><i>{{ site.description }}</i></small>
+  </header>
+
+  <hr />
+
+  <div class="content">
+    {{ content }}
+  </div>
+  <hr />
+  <footer>
+    <p><a href="https://twitter.com/mogui247" />twitter</a> – <a href="https://github.com/mogui" />github</a> – <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+    <p>© mogui - [copyright] - made with hate, <a href="http://jekyllrb.com/">jekyll</a> and the help of Satan<br />
+      Please note: a very small amount of CSS were killed to do this site, save the planet</p>
+  </footer>
+
+</body>
+
+</html>

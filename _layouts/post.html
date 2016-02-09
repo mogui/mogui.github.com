@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+
+  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+  <small>best before: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</small></time>{% if page.music %}<br /><small>better served with:</small> {{page.music}}{% endif %}
+
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>

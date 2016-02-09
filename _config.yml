@@ -1,0 +1,12 @@
+# Site settings
+title: mogui - Extreme Metal Programming
+email: mogui83@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  where we talk Death Metal, developing and beautiful stuff
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://mogui.it" # the base hostname & protocol for your site
+twitter_username: mogui247
+github_username:  mogui
+
+# Build settings
+markdown: kramdown

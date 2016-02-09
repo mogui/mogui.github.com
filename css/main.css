@@ -1,0 +1,68 @@
+/**
+ * Basic styling
+ */
+
+body {
+  font: 400 17px/1.5 "Avenir", Helvetica, Arial, sans-serif;
+  color: #111;
+  margin: 0 15%;
+  background-color: #fdfdfd;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+  margin-bottom: 5px;
+}
+footer {
+  font-size: 80%;
+  /*text-align: center;*/
+}
+header {
+  background-image: url(../public/mogui.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 60px;
+}
+iframe {
+  margin-top: 5%;
+}
+/**
+ * Nice style for block quotes
+ x*/
+
+blockquote {
+  background: #f5f5f5;
+  border-left: 10px solid #ccc;
+  margin: 10px 0px;
+  padding: 0.5em 10px;
+}
+
+blockquote p {
+  display: inline;
+  font-style: italic;
+}
+a {
+  color: #269100;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h2 a, h1 a {
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.highlight {
+  padding: 10px
+}
+.post-content {
+  padding: 5% 0;
+}
