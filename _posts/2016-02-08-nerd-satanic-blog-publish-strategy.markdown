@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nerd Satanic blog publish strategy"
-date: "2016-02-11 18:50:37"
+date: "2016-02-10 18:50:37"
 excerpt: where we talk about HOW this posts are published
 music: In Flames - Dialog With The Stars
 ---
