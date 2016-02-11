@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nerd Satanic blog publish strategy"
-date: "2016-02-08 19:06:37"
+date: "2016-02-11 18:50:37"
 excerpt: where we talk about HOW this posts are published
 music: In Flames - Dialog With The Stars
 ---
@@ -13,7 +13,7 @@ Essendo uno smanettone del cazzo, wordpress bello e pronto non mi ci garbava, vo
 
 Però il flusso di pubblicazione di jekyll è molto rigido:
 
-  scrivi -> git commit e push -> pubblica su github che fa girare jekyll   
+> scrivi -> git commit e push -> pubblica su github che fa girare jekyll   
 
 Quindi niente mobile *(si lo so, c'è qualche client)*, e solo da una macchian con git e repository configurato.   
 
