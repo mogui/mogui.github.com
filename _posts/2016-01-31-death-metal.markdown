@@ -3,7 +3,7 @@ layout: post
 title: "Death Metal"
 date: "2016-01-31 21:05:47"
 categories: deathmetal
-excerpt: where we talk about the meaning of a genre
+excerpt: where we talk about the meaning of a music genre
 music: Gory Blister - Art Bleeds
 ---
 

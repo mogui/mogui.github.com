@@ -15,7 +15,7 @@ Però il flusso di pubblicazione di jekyll è molto rigido:
 
 > scrivi -> git commit e push -> pubblica su github che fa girare jekyll   
 
-Quindi niente mobile *(si lo so, c'è qualche client)*, e solo da una macchian con git e repository configurato.   
+Quindi niente mobile *(si lo so, c'è qualche client)*, e solo da una macchina con git e repository configurato.   
 
 Qualsiasi giro di pensieri alla fine mette in mezzo **Dropbox**, ha troppe cose gratis per lo scopo:
 
