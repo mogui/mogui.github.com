@@ -28,11 +28,26 @@
   </div>
   <hr />
   <footer>
-    <p><a href="https://twitter.com/mogui247" />twitter</a> – <a href="https://github.com/mogui" />github</a> – <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
-    <p>© mogui - [copyright] - made with hate, <a href="http://jekyllrb.com/">jekyll</a> and the help of Satan<br />
-      Please note: a very small amount of CSS were killed to do this site, save the planet</p>
+    <p><a href="https://twitter.com/mogui247" />twitter</a> – <a href="https://github.com/mogui" />github</a> – <a href="{{ " /feed.xml " | prepend: site.baseurl }}">RSS</a></p>
+    <p>© mogui - [copyright] - made with hate, <a href="http://jekyllrb.com/">jekyll</a> and the help of Satan
+      <br /> Please note: a very small amount of CSS were killed to do this site, save the planet</p>
   </footer>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+    ga('create', 'UA-29030358-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 
 </html>
