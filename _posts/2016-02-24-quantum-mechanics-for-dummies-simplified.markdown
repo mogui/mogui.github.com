@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "quantum mechanics for dummies simplified"
+title: "Quantum Mechanics for dummies simplified"
 date: "2016-02-24 19:39:12"
 excerpt: where we talk about mistery of the universe
 music: Vektor - Accelerating Universe
@@ -9,8 +9,7 @@ Seguono frammenti dei miei innumerevoli `paper` scientifici sottomessi senza suc
 
 ## 1. Entanglement quantistico e non località for DUMMIES (in romano)
 
-Praticamente, io e te se semo voluti bene, poi però ci separiamo, te parti che ne so pe l'Australia e io vado a vive a Labico.   
-Non se sentimo e non se vedemo pe 12 anni, un bel giorno poi, faccio uno scureggione e te, da ingroppa a un canguro, *poesse* che senti la puzza della scureggia mia, al netto però del principio di indeterminazione de quello che me so magnato a pranzo.
+Praticamente, io e te se semo voluti bene, poi però ci separiamo, te parti che ne so pe l'Australia e io vado a vive a Labico. Non se sentimo e non se vedemo pe 12 anni, un bel giorno poi, faccio uno scureggione e te, da ingroppa a un canguro, *poesse* che senti la puzza della scureggia mia, al netto però del principio di indeterminazione de quello che me so magnato a pranzo.
 
 ## 2. Schrödinger non ha mai avuto gatti o comunque il gatto non era Rupert (in romano)
 
