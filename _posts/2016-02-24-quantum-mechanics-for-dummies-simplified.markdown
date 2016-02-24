@@ -5,6 +5,7 @@ date: "2016-02-24 10:39:12"
 excerpt: where we talk about mistery of the universe
 music: Vektor - Accelerating Universe
 ---
+
 Seguono frammenti dei miei innumerevoli `paper` scientifici sottomessi senza successo al [Zeitschrift für Physik](https://en.wikipedia.org/wiki/Zeitschrift_f%C3%BCr_Physik) spesso in collaborazione con il mio mentore [Rupert](https://scontent-mxp1-1.xx.fbcdn.net/hphotos-xla1/v/t1.0-9/10366070_10203987196751328_5616836594461340296_n.jpg?oh=a329dddbdbfb2f1b38ddaa915b5e3340&oe=576F218B)
 
 ### 1. Entanglement quantistico e non località for DUMMIES (in romano)
