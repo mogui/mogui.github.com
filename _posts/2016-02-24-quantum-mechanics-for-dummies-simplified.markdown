@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quantum Mechanics for dummies simplified"
-date: "2016-02-24 19:39:12"
+date: "2016-02-24 10:39:12"
 excerpt: where we talk about mistery of the universe
 music: Vektor - Accelerating Universe
 ---
