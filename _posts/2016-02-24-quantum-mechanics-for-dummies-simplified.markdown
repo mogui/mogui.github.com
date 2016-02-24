@@ -31,7 +31,7 @@ Fine.
 - "Mi da una dimensione extra arrotolata?"
 - "Guardi che per venire bene ce ne vogliono 6"
 - "Va bene quindi quanto fa in tutto?"
-- "4 solite + 6 extra arrotolate quindi 10"
-- "Vabbe dai, mettimene una in più famo 11"
+- "Signò so 4 solite + 6 extra arrotolate quindi 10, che faccio lascio?"
+- "Vabbe dai... mettimene n'altra, famo 11"
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/FVFR7uKYA6A?autoplay=1" frameborder="0" allowfullscreen></iframe>
